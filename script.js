@@ -73,4 +73,13 @@
             } catch (e) { console.error(e); }
         }
 
+const menuScroll = document.querySelector('.sticky-nav > div');
+
+menuScroll.addEventListener('wheel', (evt) => {
+    evt.preventDefault();
+    menuScroll.scrollLeft += evt.deltaY;
+});
+
+
+
         document.addEventListener('DOMContentLoaded', loadMenu);
