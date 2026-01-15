@@ -1,0 +1,86 @@
+ :root {
+            --primary: #71502F;
+            --accent: #FDC57E;
+            transition: all 0.3s ease;
+        }
+
+        body.light {
+            --bg: #FFFFFF;
+            --text-main: #1A1A1A;
+            --text-muted: #555555;
+            --nav-bg: #71502F;
+            --line: #EEEEEE;
+        }
+        body.light .hero-gradient { display: none; }
+
+        body.dark {
+            --bg: #0F0F0F;
+            --text-main: #E5E5E5;
+            --text-muted: #A0A0A0;
+            --nav-bg: #1A1A1A;
+            --line: #2A2A2A;
+        }
+        body.dark .hero-gradient { background: linear-gradient(to bottom, transparent, #0F0F0F); }
+
+        body { background-color: var(--bg); color: var(--text-main); font-family: 'Outfit', sans-serif; scroll-behavior: smooth; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+
+        /* HERO AJUSTADO PARA TUS FOTOS REALES */
+        .hero-img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: sepia(0.3) brightness(0.7) contrast(1.1);
+        }
+
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background-color: var(--nav-bg);
+            color: var(--accent);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        /* DISEÑO DE FOTO DE PLATO */
+        .dish-photo {
+            width: 85px;
+            height: 85px;
+            border-radius: 12px;
+            object-fit: cover;
+            border: 1px solid var(--accent);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .dish-photo:active { transform: scale(0.95); }
+
+        /* MODAL PARA VER FOTO GRANDE */
+        #photo-modal {
+            display: none;
+            position: fixed;
+            inset: 0;
+            z-index: 200;
+            background: rgba(0,0,0,0.9);
+            padding: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .theme-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 100;
+            background: rgba(0,0,0,0.5);
+            backdrop-filter: blur(8px);
+            padding: 10px;
+            border-radius: 50%;
+            border: 1px solid var(--accent);
+            color: var(--accent);
+        }
+
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .item-border { border-bottom: 1px solid var(--line); }

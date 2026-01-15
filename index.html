@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Jazz Café</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body class="dark">
+
+    <!-- Modal de Foto -->
+    <div id="photo-modal" onclick="this.style.display='none'">
+        <img id="modal-img" class="max-w-full max-h-[80vh] rounded-lg shadow-2xl border-2 border-[#FDC57E]">
+        <p class="absolute bottom-10 text-[#FDC57E] uppercase tracking-widest text-xs">Toca para cerrar</p>
+    </div>
+
+    <div class="theme-toggle-container">
+        <button class="theme-btn" onclick="toggleTheme()" id="theme-btn-ui">
+            <i data-lucide="sun"></i>
+        </button>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="relative h-[45vh] flex items-center justify-center overflow-hidden bg-black">
+    
+        <img src="imagenes/lugar.jpg" class="hero-img" alt="Jazz Café">
+        <div class="absolute inset-0 hero-gradient"></div>
+        <div class="relative text-center px-4">
+            <h1 class="text-6xl md:text-8xl font-serif italic text-[#FDC57E]" style="text-shadow: 0 4px 15px rgba(0,0,0,0.8);">Jazz Café</h1>
+            <p class="uppercase tracking-[0.5em] text-[10px] text-[#FDC57E] font-bold mt-2">Restaurant Gastro Bar</p>
+        </div>
+    </header>
+
+    <nav class="sticky-nav">
+        <div class="max-w-5xl mx-auto flex gap-8 overflow-x-auto px-6 py-4 no-scrollbar whitespace-nowrap text-[11px] font-bold uppercase tracking-widest">
+            <div id="nav-items" class="flex gap-8"></div>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 py-12">
+        <div id="menu-container" class="space-y-16">
+          
+        </div>
+    </main>
+
+ <footer class="py-16 text-center border-t border-sep">
+        <p class="font-serif italic text-3xl text-[#FDC57E] dark:text-[#FDC57E]">Jazz Café</p>
+        <p class="text-[10px] uppercase tracking-widest mt-4 opacity-50">Un idioma gastronómico y musical a su medida </p>
+        <p class="text-[10px] uppercase tracking-widest mt-4 opacity-50">La Fría - Estado Táchira - Venezuela</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
