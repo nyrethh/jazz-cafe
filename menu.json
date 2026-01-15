@@ -16,7 +16,8 @@
         { "id": 111, "nombre": "Montadito Jazz Café", "precio": "2.037,93", "desc": "Tapa especial de la casa" },
         { "id": 112, "nombre": "Salpicón de Mariscos", "precio": "2.913,27", "desc": "Mezcla fresca de mariscos" },
         { "id": 113, "nombre": "Zarzuela de Mariscos", "precio": "5.241,85", "desc": "Cazuela variada de frutos del mar" },
-        { "id": 114, "nombre": "Bandeja de Pasapalos", "precio": "5.826,53", "desc": "Surtido ideal para compartir"}
+        { "id": 114, "nombre": "Bandeja de Pasapalos", "precio": "5.826,53", "desc": "Surtido ideal para compartir"},
+        { "id": 115, "nombre": "Bandeja de Pasapalos prueba", "precio": "5.826,53", "desc": "Surtido ideal para compartir"}
     ]
   },
   {
