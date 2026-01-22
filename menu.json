@@ -1,244 +1,722 @@
 [
   {
-    "id": "entradas",
-    "categoria": "Entradas y Ensaladas",
+    "id": "cafes",
+    "categoria": "Cafés de la Casa y Especiales",
     "items": [
-      { "id": 1, "nombre": "Brownie", "precio": "1.020,66", "desc": "Postre de chocolate" },
-      { "id": 2, "nombre": "Bruschetta Capresse", "precio": "2.037,93", "desc": "Pan tostado con tomate y queso" },
-      { "id": 3, "nombre": "Bruschetta A La Marinera", "precio": "5.245,23", "desc": "Con tope de mariscos" },
-      { "id": 4, "nombre": "Camarones Gratinados", "precio": "4.369,91", "desc": "Gratinados con queso" },
-      { "id": 5, "nombre": "Carpaccio De Lomito", "precio": "2.913,27", "desc": "Finas láminas de carne" },
-      { "id": 6, "nombre": "Chistorras", "precio": "2.913,27", "desc": "Al grill" },
-      { "id": 7, "nombre": "Dedos Mozzarella", "precio": "2.331,97", "desc": "Queso empanizado" },
-      { "id": 8, "nombre": "Enrrollado De Carne", "precio": "2.913,27", "desc": "Especial de la casa" },
-      { "id": 9, "nombre": "Ensalada Cesar", "precio": "2.913,27", "desc": "Lechuga, crotones y parmesano" },
-      { "id": 10, "nombre": "Ensalada Cesar 1/2", "precio": "1.456,64", "desc": "Media porción" },
-      { "id": 11, "nombre": "Ensalada Frescura En Jazz", "precio": "1.456,64", "desc": "Fresca selección de la casa" },
-      { "id": 12, "nombre": "Ensalada Jazz Cafe", "precio": "3.785,22", "desc": "La especial de la casa" },
-      { "id": 13, "nombre": "Ensalada Rusa", "precio": "1.162,60", "desc": "Papas y vegetales" },
-      { "id": 14, "nombre": "Montadito Jazz Cafe", "precio": "2.037,93", "desc": "Tapa especial" },
-      { "id": 15, "nombre": "Salpicon De Mariscos", "precio": "2.913,27", "desc": "Mariscos variados" },
-      { "id": 16, "nombre": "Tequeños", "precio": "1.747,28", "desc": "Dedos de queso" },
-      { "id": 17, "nombre": "Zarzuela De Mariscos", "precio": "5.241,85", "desc": "Cazuela de mariscos" }
+      {
+        "id": 101,
+        "nombre": "Café Espresso",
+        "precio": "$0.50",
+        "desc": "7 gramos de Café espresso y una onza de agua."
+      },
+      {
+        "id": 102,
+        "nombre": "Latte Macchiatto",
+        "precio": "$1",
+        "desc": "Café espresso y leche caliente."
+      },
+      {
+        "id": 103,
+        "nombre": "Latte Vainilla",
+        "precio": "$1",
+        "desc": "Café espresso, leche caliente, vainilla y canela."
+      },
+      {
+        "id": 104,
+        "nombre": "Cappuccino",
+        "precio": "$1",
+        "desc": "Café espresso, leche caliente y espuma de leche."
+      },
+      {
+        "id": 105,
+        "nombre": "Moka",
+        "precio": "$1",
+        "desc": "Café espresso, chocolate y crema batida."
+      },
+      {
+        "id": 106,
+        "nombre": "Latte Moka",
+        "precio": "$1",
+        "desc": "Café espresso, leche caliente, chocolate oscuro."
+      },
+      {
+        "id": 107,
+        "nombre": "Café Vienés",
+        "precio": "$1",
+        "desc": "Café espresso, crema batida, canela o virutas de chocolate."
+      },
+      {
+        "id": 108,
+        "nombre": "Café Irlandés",
+        "precio": "$2.5",
+        "desc": "Café espresso, whisky y crema batida."
+      },
+      {
+        "id": 109,
+        "nombre": "Café Baileys",
+        "precio": "$2.7",
+        "desc": "Café espresso, licor de baileys, crema batida."
+      },
+      {
+        "id": 110,
+        "nombre": "Café Afogatto",
+        "precio": "$1.4",
+        "desc": "Café espresso, crema batida, sirope de chocolate, helado de vainilla."
+      },
+      {
+        "id": 111,
+        "nombre": "Frapuccino Tradicional",
+        "precio": "$1.3",
+        "desc": "Café espresso, leche fría, ron (opcional), crema batida."
+      },
+      {
+        "id": 112,
+        "nombre": "Frapuccino Oreo Cookies",
+        "precio": "$2.2",
+        "desc": "Galleta oreo, café espresso, leche fría, helado de chocolate y crema batida."
+      },
+      {
+        "id": 113,
+        "nombre": "Frapuccino Capuccino",
+        "precio": "$2",
+        "desc": "Sirope de chocolate, café espresso, leche fría, dulce de leche y crema batida."
+      }
+    ]
+  },
+  {
+    "id": "entradas",
+    "categoria": "Entradas",
+    "items": [
+      {
+        "id": 201,
+        "nombre": "Deditos de Mozzarella",
+        "precio": "$5",
+        "desc": "Mozzarella cubierto en un delicioso empanizado, acompañado de salsa miel-parchita."
+      },
+      {
+        "id": 202,
+        "nombre": "Salpicón de Mariscos",
+        "precio": "$10",
+        "desc": "Camarones, aros de calamar y pulpo, en vinagreta con vegetales frescos, acompañado de los chips de la casa."
+      },
+      {
+        "id": 203,
+        "nombre": "Servicio de Tequeños",
+        "precio": "$5",
+        "desc": "Queso de nuestros llanos en una masa crujiente, acompañados de la salsa propia de casa."
+      },
+      {
+        "id": 204,
+        "nombre": "Carpaccio de Lomito",
+        "precio": "$10",
+        "desc": "Finas láminas de lomito crudo marinado en especias y cerveza, con ensalada fresca, champiñones y parmesano."
+      },
+      {
+        "id": 205,
+        "nombre": "Bruschetta Capresse",
+        "precio": "$7",
+        "desc": "Pan ciabatta hidratado en ajo y aceite de oliva, cubierto de mozzarella, tomates confitados y pesto, gratinado."
+      },
+      {
+        "id": 206,
+        "nombre": "Montadito Jazz Café",
+        "precio": "$7",
+        "desc": "Mini masitas de pizza frita, con finas lonjas de carne o salmón, acompañado en la salsa plus jazz."
+      }
+    ]
+  },
+  {
+    "id": "ensaladas",
+    "categoria": "Ensaladas",
+    "items": [
+      {
+        "id": 301,
+        "nombre": "Lo del César para el César",
+        "precio": "$5",
+        "desc": "Lechugas frescas con crotones, virutas de tocineta, parmesano, aderezo césar y pollo al grill."
+      },
+      {
+        "id": 302,
+        "nombre": "Frescura en Jazz",
+        "precio": "$10",
+        "desc": "Mix de lechugas, palmitos, tomates frescos, cebolla morada y aguacate, acompañada de la vinagreta de la casa."
+      },
+      {
+        "id": 303,
+        "nombre": "Ensalada Jazz Café",
+        "precio": "$13",
+        "desc": "Cama de lechuga, brotes, tomates cherrys, champiñones y camarones salteados, junto al aderezo de la casa."
+      }
     ]
   },
   {
     "id": "sopas",
     "categoria": "Cremas y Sopas",
     "items": [
-      { "id": 18, "nombre": "Crema De Camarones", "precio": "2.037,93", "desc": "Suave crema de mariscos" },
-      { "id": 19, "nombre": "Crema Del Dia", "precio": "581,30", "desc": "Consultar opción del día" },
-      { "id": 20, "nombre": "Sopa De Cebolla", "precio": "1.747,28", "desc": "Gratinada" }
+      {
+        "id": 401,
+        "nombre": "Sopa de Cebolla",
+        "precio": "$6",
+        "desc": "Fondo de aves y vegetales, cebollas flambeadas y caramelizadas, coronada con pan parmesano y gratinada."
+      },
+      {
+        "id": 402,
+        "nombre": "Crema del Día",
+        "precio": "$2",
+        "desc": "Nuestra fresca cocción cargada de una bella melodía."
+      }
     ]
   },
   {
     "id": "platos_fuertes",
-    "categoria": "Platos Fuertes",
+    "categoria": "Principales Jazz Café",
     "items": [
-      { "id": 21, "nombre": "Brocheta De Lomito", "precio": "3.494,57", "desc": "Pinchos de carne" },
-      { "id": 22, "nombre": "Brocheta De Pollo", "precio": "2.619,23", "desc": "Pinchos de pollo" },
-      { "id": 23, "nombre": "Brocheta Mixta", "precio": "2.913,27", "desc": "Carne y pollo" },
-      { "id": 24, "nombre": "Camarones Al Ajillo", "precio": "3.494,57", "desc": "Salteados al ajillo" },
-      { "id": 25, "nombre": "Camarones Rebozados", "precio": "3.494,57", "desc": "Crujientes" },
-      { "id": 26, "nombre": "Canasta De Camarones", "precio": "3.494,57", "desc": "Presentación especial" },
-      { "id": 27, "nombre": "Cazuela De Mariscos", "precio": "5.245,23", "desc": "Guiso de mariscos" },
-      { "id": 28, "nombre": "Cazuela De Pollo Y Embutidos", "precio": "4.660,56", "desc": "Guiso especial" },
-      { "id": 29, "nombre": "Churrasco De Solomo Al Grill", "precio": "4.660,56", "desc": "Al grill" },
-      { "id": 30, "nombre": "Churrasco Punta Trasera", "precio": "4.660,56", "desc": "Corte de punta trasera" },
-      { "id": 31, "nombre": "Club House Lomito", "precio": "2.913,27", "desc": "Sandwich con papas" },
-      { "id": 32, "nombre": "Club House Pollo", "precio": "2.037,93", "desc": "Sandwich con papas" },
-      { "id": 33, "nombre": "Cordon Bleu", "precio": "3.497,95", "desc": "Pollo relleno" },
-      { "id": 34, "nombre": "Costillas San Luis", "precio": "4.951,20", "desc": "Costillas de cerdo" },
-      { "id": 35, "nombre": "Filet De Pescado Al Ajillo", "precio": "2.041,31", "desc": "Pescado blanco" },
-      { "id": 36, "nombre": "Filet De Pescado Gratinado", "precio": "3.785,22", "desc": "Con queso gratinado" },
-      { "id": 37, "nombre": "Filet Mignon", "precio": "4.660,56", "desc": "Medallones con tocineta" },
-      { "id": 38, "nombre": "Lomito Al Grill", "precio": "3.785,22", "desc": "Carne tierna al grill" },
-      { "id": 39, "nombre": "Lomito Gratinado", "precio": "4.369,91", "desc": "Con queso fundido" },
-      { "id": 40, "nombre": "Lomo De Cerdo Agridulce", "precio": "2.331,97", "desc": "Salsa agridulce" },
-      { "id": 41, "nombre": "Lomo De Cerdo Al Grill", "precio": "2.913,27", "desc": "Chuleta de cerdo" },
-      { "id": 42, "nombre": "Macarrones Con Queso", "precio": "1.456,64", "desc": "Mac & Cheese" },
-      { "id": 43, "nombre": "Macarrones Infantil", "precio": "1.456,64", "desc": "Porción para niños" },
-      { "id": 44, "nombre": "Medallones De Cerdo", "precio": "4.660,56", "desc": "Cortes de cerdo" },
-      { "id": 45, "nombre": "Medallones De Lomito Al Vino", "precio": "2.913,27", "desc": "Salsa de vino" },
-      { "id": 46, "nombre": "Mero", "precio": "5.826,53", "desc": "Pescado fresco" },
-      { "id": 47, "nombre": "Mero Al Graten Con Mariscos", "precio": "7.283,16", "desc": "Especialidad del mar" },
-      { "id": 48, "nombre": "Paella Valenciana (2 Personas)", "precio": "8.739,80", "desc": "Arroz con mariscos" },
-      { "id": 49, "nombre": "Paella Valenciana (4 Personas)", "precio": "17.479,60", "desc": "Familiar" },
-      { "id": 50, "nombre": "Pasta 4 Quesos", "precio": "4.075,87", "desc": "Salsa de quesos" },
-      { "id": 51, "nombre": "Pasta Al Pesto", "precio": "1.747,28", "desc": "Salsa verde" },
-      { "id": 52, "nombre": "Pasta Carbonara", "precio": "2.037,93", "desc": "Tocineta y crema" },
-      { "id": 53, "nombre": "Pasta Cremosa", "precio": "581,30", "desc": "Salsa blanca" },
-      { "id": 54, "nombre": "Pasta De Lomito", "precio": "4.075,87", "desc": "Con trozos de carne" },
-      { "id": 55, "nombre": "Pasta De Mariscos", "precio": "5.245,23", "desc": "Frutos del mar" },
-      { "id": 56, "nombre": "Pasta De Pollo", "precio": "4.075,87", "desc": "Con trozos de pollo" },
-      { "id": 57, "nombre": "Pasta La Boloñesa", "precio": "2.913,27", "desc": "Salsa de carne" },
-      { "id": 58, "nombre": "Pechuga Siciliana", "precio": "3.788,59", "desc": "Especialidad italiana" },
-      { "id": 59, "nombre": "Pollo", "precio": "2.622,62", "desc": "Pollo clásico" },
-      { "id": 60, "nombre": "Pollo Gratinado", "precio": "3.494,57", "desc": "Con queso derretido" },
-      { "id": 61, "nombre": "Pulpo A La Gallega", "precio": "6.117,19", "desc": "Con pimentón y papas" },
-      { "id": 62, "nombre": "Pulpo Al Ajillo", "precio": "1.747,28", "desc": "Al ajillo" },
-      { "id": 63, "nombre": "Risotto De Camarones Y Salmon", "precio": "6.117,19", "desc": "Arroz cremoso" },
-      { "id": 64, "nombre": "Risotto De Lomito", "precio": "4.075,87", "desc": "Con carne" },
-      { "id": 65, "nombre": "Risotto De Pollo", "precio": "4.075,87", "desc": "Con pollo" },
-      { "id": 66, "nombre": "Risotto Fruto Del Mar", "precio": "5.241,85", "desc": "Con mariscos" },
-      { "id": 67, "nombre": "Robalo", "precio": "5.826,53", "desc": "Pescado blanco" },
-      { "id": 68, "nombre": "Robalo Al Graten Con Mariscos", "precio": "7.283,16", "desc": "Gratinado" },
-      { "id": 69, "nombre": "Salmon A La Menier", "precio": "5.241,85", "desc": "Salsa de mantequilla y limón" },
-      { "id": 70, "nombre": "Salmon Frutos Del Mar", "precio": "6.117,19", "desc": "Con mariscos" },
-      { "id": 71, "nombre": "Trucha Al Ajillo", "precio": "2.041,31", "desc": "Trucha fresca" },
-      { "id": 72, "nombre": "Trucha Al Graten Con Mariscos", "precio": "4.369,91", "desc": "Gratinada" },
-      { "id": 73, "nombre": "Trucha Dorada", "precio": "2.041,31", "desc": "A la plancha" },
-      { "id": 74, "nombre": "Trucha Enchilada Con Mariscos", "precio": "3.494,57", "desc": "Picante con mariscos" }
+      {
+        "id": 501,
+        "nombre": "Pechuga Siciliana",
+        "precio": "$13",
+        "desc": "Suprema de pollo rellena de queso mozzarella y pepperoni, gratinado con salsa pomodoro y parmesano."
+      },
+      {
+        "id": 502,
+        "nombre": "Pollo al Ajillo",
+        "precio": "$9",
+        "desc": "Churrasco de pollo en salsa al ajillo, pídelo con arroz cremoso o pasta."
+      },
+      {
+        "id": 503,
+        "nombre": "Filet Mignon",
+        "precio": "$16",
+        "desc": "Medallón de lomito cubierto de tocineta, en salsa de vino tinto, champiñones y crema de leche."
+      },
+      {
+        "id": 504,
+        "nombre": "Lomito Gratinado",
+        "precio": "$15",
+        "desc": "Lomito en pesto rojo, salsa panna, champiñones cubierto de queso mozzarella."
+      },
+      {
+        "id": 505,
+        "nombre": "Churrasco Punta Trasera",
+        "precio": "$16",
+        "desc": "Selección de carne nacional Madurada, clasificación AA al grill."
+      },
+      {
+        "id": 506,
+        "nombre": "Costillas San Luis",
+        "precio": "$17",
+        "desc": "Costillas ahumadas acompañadas de salsa BBQ, con ensaladilla y papas amarillas."
+      },
+      {
+        "id": 507,
+        "nombre": "Churrasco de Solomo",
+        "precio": "$16",
+        "desc": "Selección de carne nacional madurada clasificación AA al grill."
+      }
     ]
   },
   {
-    "id": "tapas",
-    "categoria": "Tapas y Hamburguesas",
+    "id": "pescados",
+    "categoria": "Pescados y Mariscos",
     "items": [
-      { "id": 75, "nombre": "Bandeja Pasapalos", "precio": "5.826,53", "desc": "Para compartir" },
-      { "id": 76, "nombre": "Ceviche De La Casa", "precio": "2.328,58", "desc": "Pescado marinado" },
-      { "id": 77, "nombre": "Croqueta De Hamburguesa", "precio": "855,06", "desc": "Tapa pequeña" },
-      { "id": 78, "nombre": "Empanadas", "precio": "3.494,57", "desc": "Ración" },
-      { "id": 79, "nombre": "Hamb. Pollo Crispy", "precio": "2.041,31", "desc": "Pollo crujiente" },
-      { "id": 80, "nombre": "Hamburguesa De Cerdo", "precio": "3.788,59", "desc": "Carne de cerdo" },
-      { "id": 81, "nombre": "Hamburguesa De Lomito", "precio": "2.622,62", "desc": "Carne de lomito" },
-      { "id": 82, "nombre": "Hamburguesa Jazz", "precio": "1.747,28", "desc": "La clásica" },
-      { "id": 83, "nombre": "Hamburguesa Promo 2x1", "precio": "2.619,23", "desc": "Promoción" },
-      { "id": 84, "nombre": "Nachos Jazz", "precio": "3.203,92", "desc": "Con queso y salsas" },
-      { "id": 85, "nombre": "Picada Mar Y Tierra", "precio": "10.487,08", "desc": "Gigante para compartir" },
-      { "id": 86, "nombre": "Picada Mar Y Tierra (2 Pers)", "precio": "5.241,85", "desc": "Mediana para compartir" },
-      { "id": 87, "nombre": "Picada Pollo Y Lomito", "precio": "6.989,14", "desc": "Gigante mixta" },
-      { "id": 88, "nombre": "Picada Pollo/Lomito (2 Pers)", "precio": "3.494,57", "desc": "Mediana mixta" },
-      { "id": 89, "nombre": "Tender De Pechuga De Pollo", "precio": "3.203,92", "desc": "Tiras empanizadas" },
-      { "id": 90, "nombre": "Tenders De Pollo (Niños)", "precio": "1.456,64", "desc": "Porción infantil" }
+      {
+        "id": 601,
+        "nombre": "Salmón a la Menier",
+        "precio": "$18",
+        "desc": "Salmón al grill marinado en ajo, mantequilla, limón y perejil, pídelo con pasta o arroz cremoso."
+      },
+      {
+        "id": 602,
+        "nombre": "Salmón Frutos del Mar",
+        "precio": "$21",
+        "desc": "Salmón al grill con corona de frutos del mar gratinados en salsa panna."
+      },
+      {
+        "id": 603,
+        "nombre": "Mero al Graten con Mariscos",
+        "precio": "$15",
+        "desc": "Filet de mero salsa blanca, con corona de frutos del mar y queso mozzarella gratinado."
+      },
+      {
+        "id": 604,
+        "nombre": "Mero al Ajillo",
+        "precio": "$7",
+        "desc": "Filet de mero en salsa al ajillo, pídelo con arroz cremoso o pasta."
+      },
+      {
+        "id": 605,
+        "nombre": "Camarones al Ajillo",
+        "precio": "$12",
+        "desc": "Camarones seleccionados, salteados en salsa al ajillo, acompañado de arroz cremoso o pasta."
+      },
+      {
+        "id": 606,
+        "nombre": "Cazuela de Mariscos",
+        "precio": "$18",
+        "desc": "Una fina selección de los mejores frutos del mar, llevados a una cazuela."
+      },
+      {
+        "id": 607,
+        "nombre": "Paella Valenciana (4 Pers)",
+        "precio": "$60",
+        "desc": "Paella de la casa, ideal para compartir."
+      }
     ]
   },
   {
-    "id": "guarniciones",
-    "categoria": "Guarniciones",
+    "id": "risottos",
+    "categoria": "Risottos Jazz",
     "items": [
-      { "id": 91, "nombre": "Arroz Cremoso", "precio": "581,30", "desc": "Guarnición" },
-      { "id": 92, "nombre": "Papas Amarillas", "precio": "581,30", "desc": "Guarnición" },
-      { "id": 93, "nombre": "Papas Francesas", "precio": "581,30", "desc": "Fritas" },
-      { "id": 94, "nombre": "Pastel De Papa Al Gratel", "precio": "581,30", "desc": "Gratinado" },
-      { "id": 95, "nombre": "Servicio De Aguacate", "precio": "730,01", "desc": "Porción extra" },
-      { "id": 96, "nombre": "Servicio De Arroz", "precio": "581,30", "desc": "Arroz blanco" },
-      { "id": 97, "nombre": "Servicio De Pan Con Ajo", "precio": "581,30", "desc": "Pan tostado" },
-      { "id": 98, "nombre": "Servicio De Papas Francesas", "precio": "581,30", "desc": "Fritas extra" },
-      { "id": 99, "nombre": "Servicio De Tostones", "precio": "581,30", "desc": "Plátano frito" },
-      { "id": 100, "nombre": "Yuca Cocida", "precio": "581,30", "desc": "Guarnición" },
-      { "id": 101, "nombre": "Yuca Frita", "precio": "581,30", "desc": "Guarnición" }
+      {
+        "id": 701,
+        "nombre": "Risotto de Pollo",
+        "precio": "$14",
+        "desc": "Arroz especial en cocción de vino blanco, queso parmesano, pechuga de pollo y champiñones salteados."
+      },
+      {
+        "id": 702,
+        "nombre": "Risotto de Lomito",
+        "precio": "$14",
+        "desc": "Arroz especial en vino tinto, vegetales frescos, lomito en salsa plus."
+      },
+      {
+        "id": 703,
+        "nombre": "Risotto Frutos del Mar",
+        "precio": "$18",
+        "desc": "Arroz especial en vino blanco, cebollas cristalizadas y frutos del mar."
+      },
+      {
+        "id": 704,
+        "nombre": "Risotto de Camarones Salmón",
+        "precio": "$21",
+        "desc": "Risotto de camarones en tinta de calamar y el mejor salmón Jazz."
+      }
     ]
   },
   {
-    "id": "licores",
-    "categoria": "Licores",
+    "id": "pastas",
+    "categoria": "Pastas Jazz",
     "items": [
-      { "id": 102, "nombre": "Antioqueño 0.75ml", "precio": "6.701,87", "desc": "Aguardiente" },
-      { "id": 103, "nombre": "Baileys", "precio": "8.739,80", "desc": "Crema irlandesa" },
-      { "id": 104, "nombre": "Black & White 8 Años", "precio": "7.283,16", "desc": "Whisky" },
-      { "id": 105, "nombre": "Bodega 1800 12 Años", "precio": "5.241,85", "desc": "Vino" },
-      { "id": 106, "nombre": "Buchanans 12 Años", "precio": "15.151,02", "desc": "Whisky Premium" },
-      { "id": 107, "nombre": "Buchanans 18", "precio": "32.048,50", "desc": "Whisky Premium" },
-      { "id": 108, "nombre": "Caroreña Verano 222ml", "precio": "378,52", "desc": "Sangría personal" },
-      { "id": 109, "nombre": "Cerveza Standar", "precio": "290,65", "desc": "Nacional" },
-      { "id": 110, "nombre": "Cerveza Corona 355", "precio": "523,84", "desc": "Importada" },
-      { "id": 111, "nombre": "Cerveza Coronita", "precio": "378,52", "desc": "Importada pequeña" },
-      { "id": 112, "nombre": "Cerveza Heineken", "precio": "496,80", "desc": "Importada" },
-      { "id": 113, "nombre": "Cerveza Polar 222ml", "precio": "233,19", "desc": "Nacional pequeña" },
-      { "id": 114, "nombre": "Copa De Vino", "precio": "1.892,61", "desc": "Por copa" },
-      { "id": 115, "nombre": "Descorche Ron", "precio": "2.913,27", "desc": "Servicio" },
-      { "id": 116, "nombre": "Descorche Vino", "precio": "1.456,64", "desc": "Servicio" },
-      { "id": 117, "nombre": "Descorche Whisky", "precio": "4.369,91", "desc": "Servicio" },
-      { "id": 118, "nombre": "Gin Tonic", "precio": "871,95", "desc": "Coctel clásico" },
-      { "id": 119, "nombre": "JP Chenet", "precio": "7.283,16", "desc": "Vino botella" },
-      { "id": 120, "nombre": "Old Parr 12 Años", "precio": "15.147,64", "desc": "Whisky" },
-      { "id": 121, "nombre": "Ron Cacique 500", "precio": "7.573,81", "desc": "Ron reserva" },
-      { "id": 122, "nombre": "Ron Cacique Leyenda", "precio": "13.694,38", "desc": "Ron premium" },
-      { "id": 123, "nombre": "Ron Pampero Aniversario", "precio": "13.694,38", "desc": "Ron reserva" },
-      { "id": 124, "nombre": "Sangria", "precio": "3.555,40", "desc": "Jarra" },
-      { "id": 125, "nombre": "Tobo Cerveza", "precio": "2.331,97", "desc": "Balde" },
-      { "id": 126, "nombre": "Vino", "precio": "5.245,23", "desc": "Botella" },
-      { "id": 127, "nombre": "Vino Champagne", "precio": "3.639,89", "desc": "Espumoso" },
-      { "id": 128, "nombre": "Whisky Sour", "precio": "1.456,64", "desc": "Coctel" }
+      {
+        "id": 801,
+        "nombre": "Pasta de Lomito",
+        "precio": "$14",
+        "desc": "Pasta con deliciosa crema blanca o pomodoro, tomates confitados y coronado con trozos de lomito."
+      },
+      {
+        "id": 802,
+        "nombre": "Pasta de Pollo",
+        "precio": "$14",
+        "desc": "Pasta con deliciosa crema blanca o pomodoro y champiñones."
+      },
+      {
+        "id": 803,
+        "nombre": "Pasta de Mariscos",
+        "precio": "$18",
+        "desc": "Fina selección de mariscos, escoge entre salsa pomodoro o blanca a base de vino."
+      },
+      {
+        "id": 804,
+        "nombre": "Pasta a la Boloñesa",
+        "precio": "$10",
+        "desc": "Carne de primera calidad en cocción lenta con tomates frescos y ahumados, con pepperoni."
+      }
     ]
   },
   {
-    "id": "cocteles",
-    "categoria": "Cocteles",
+    "id": "hamburguesas",
+    "categoria": "Hamburguesas",
     "items": [
-      { "id": 129, "nombre": "Amor Supremo", "precio": "1.307,92", "desc": "Coctel dulce" },
-      { "id": 130, "nombre": "Beso Limon", "precio": "581,30", "desc": "Cítrico" },
-      { "id": 131, "nombre": "Chelada", "precio": "757,04", "desc": "Cerveza preparada" },
-      { "id": 132, "nombre": "Coco Loco", "precio": "757,04", "desc": "Tropical en coco" },
-      { "id": 133, "nombre": "Corona Jazz", "precio": "1.074,73", "desc": "Especial de la casa" },
-      { "id": 134, "nombre": "Cuba Libre", "precio": "435,97", "desc": "Ron con refresco" },
-      { "id": 135, "nombre": "Daiquiri", "precio": "730,01", "desc": "Ron frozen" },
-      { "id": 136, "nombre": "Entre Sabanas", "precio": "435,97", "desc": "Coctel clásico" },
-      { "id": 137, "nombre": "Frescura Jazz", "precio": "871,95", "desc": "Refrescante" },
-      { "id": 138, "nombre": "Isla Jazz", "precio": "581,30", "desc": "Tropical" },
-      { "id": 139, "nombre": "Jarra Sangria", "precio": "2.331,97", "desc": "Para compartir" },
-      { "id": 140, "nombre": "Jazz Surprise", "precio": "1.162,60", "desc": "Sorpresa de la casa" },
-      { "id": 141, "nombre": "Jazz Woman", "precio": "1.250,48", "desc": "Dulce y fuerte" },
-      { "id": 142, "nombre": "Mai Tai", "precio": "726,62", "desc": "Polinesio" },
-      { "id": 143, "nombre": "Margarita", "precio": "581,30", "desc": "Tequila y limón" },
-      { "id": 144, "nombre": "Margarita Blue", "precio": "875,34", "desc": "Con Blue Curaçao" },
-      { "id": 145, "nombre": "Martini Express", "precio": "1.162,60", "desc": "Elegante" },
-      { "id": 146, "nombre": "Melodia", "precio": "581,30", "desc": "Suave" },
-      { "id": 147, "nombre": "Michelada", "precio": "1.311,31", "desc": "Cerveza, limón y sal" },
-      { "id": 148, "nombre": "Mojito", "precio": "435,97", "desc": "Ron, hierbabuena y soda" },
-      { "id": 149, "nombre": "Piña Colada", "precio": "757,04", "desc": "Ron, piña y coco" },
-      { "id": 150, "nombre": "Rey Azul", "precio": "581,30", "desc": "Color azul intenso" },
-      { "id": 151, "nombre": "Shot Tequila", "precio": "581,30", "desc": "Trago corto" },
-      { "id": 152, "nombre": "Swing Haway", "precio": "435,97", "desc": "Tropical" },
-      { "id": 153, "nombre": "Tinto Verano", "precio": "1.165,99", "desc": "Vino refrescante" },
-      { "id": 154, "nombre": "Tom Collins", "precio": "581,30", "desc": "Ginebra y limón" },
-      { "id": 155, "nombre": "Tren Azul", "precio": "871,95", "desc": "Coctel azul" },
-      { "id": 156, "nombre": "Vino Jazz", "precio": "871,95", "desc": "Vino preparado" }
+      {
+        "id": 901,
+        "nombre": "Hamburguesa Jazz",
+        "precio": "$9",
+        "desc": "Clásica croqueta con queso cheddar, vegetales frescos, tocineta y papas fritas."
+      },
+      {
+        "id": 902,
+        "nombre": "Pollo Crispy",
+        "precio": "$10",
+        "desc": "Pechuga de pollo apanada, vegetales y queso cheddar con salsa BBQ en pan brioche."
+      },
+      {
+        "id": 903,
+        "nombre": "Choripanes Jazz Café",
+        "precio": "$7",
+        "desc": "Chorizo picante o ahumado, guacamole, pico de gallo, chimichurri jazz y papas fritas."
+      },
+      {
+        "id": 904,
+        "nombre": "Hamburguesa de Cerdo",
+        "precio": "$16",
+        "desc": "Cerdo ahumado, vegetales frescos, pepinillos, queso cheddar y salsa BBQ."
+      },
+      {
+        "id": 905,
+        "nombre": "Hamburguesa de Lomito",
+        "precio": "$12",
+        "desc": "Lomito, vegetales frescos, pepinillos, queso cheddar y salsa BBQ."
+      }
     ]
   },
   {
-    "id": "bebidas",
-    "categoria": "Bebidas Frias y Calientes",
+    "id": "tapas_picadas",
+    "categoria": "Tapas y Picadas",
     "items": [
-      { "id": 157, "nombre": "Agua Mineral", "precio": "581,30", "desc": "Botella" },
-      { "id": 158, "nombre": "Cafe Afogatto", "precio": "408,93", "desc": "Con helado" },
-      { "id": 159, "nombre": "Cafe Bayleys", "precio": "787,47", "desc": "Con licor" },
-      { "id": 160, "nombre": "Cafe Bombom", "precio": "726,62", "desc": "Con leche condensada" },
-      { "id": 161, "nombre": "Cafe Expresso", "precio": "145,32", "desc": "Negro corto" },
-      { "id": 162, "nombre": "Cafe Irlandes", "precio": "1.165,99", "desc": "Con whisky" },
-      { "id": 163, "nombre": "Cafe Vienes", "precio": "290,65", "desc": "Con crema" },
-      { "id": 164, "nombre": "Cappuccino", "precio": "290,65", "desc": "Con espuma" },
-      { "id": 165, "nombre": "Capuccino Frapuccios", "precio": "581,30", "desc": "Frio" },
-      { "id": 166, "nombre": "Gatorade", "precio": "442,74", "desc": "Isotónico" },
-      { "id": 167, "nombre": "Granizado", "precio": "348,10", "desc": "Hielo saborizado" },
-      { "id": 168, "nombre": "Helado", "precio": "1.020,66", "desc": "Porción" },
-      { "id": 169, "nombre": "Helado Con Brownie", "precio": "1.456,64", "desc": "Con torta" },
-      { "id": 170, "nombre": "Helado Frito", "precio": "1.456,64", "desc": "Especialidad" },
-      { "id": 171, "nombre": "Jugo Natural", "precio": "378,52", "desc": "Fruta natural" },
-      { "id": 172, "nombre": "Latte Macchiatto", "precio": "290,65", "desc": "Leche manchada" },
-      { "id": 173, "nombre": "Latte Moka", "precio": "290,65", "desc": "Con chocolate" },
-      { "id": 174, "nombre": "Latte Vainilla", "precio": "290,65", "desc": "Aromatizado" },
-      { "id": 175, "nombre": "Merengada", "precio": "581,30", "desc": "Batido" },
-      { "id": 176, "nombre": "Moka", "precio": "290,65", "desc": "Cafe moka" },
-      { "id": 177, "nombre": "Oreo Cookies", "precio": "638,75", "desc": "Batido de galleta" },
-      { "id": 178, "nombre": "Parfait", "precio": "1.456,64", "desc": "Frutas y helado" },
-      { "id": 179, "nombre": "Refresco 2Lts", "precio": "726,62", "desc": "Familiar" },
-      { "id": 180, "nombre": "Refresco Botella", "precio": "435,97", "desc": "Personal" },
-      { "id": 181, "nombre": "Refresco Lata", "precio": "523,84", "desc": "Lata" },
-      { "id": 182, "nombre": "Soda", "precio": "581,30", "desc": "Agua con gas" },
-      { "id": 183, "nombre": "Speed Max", "precio": "378,52", "desc": "Energizante" },
-      { "id": 184, "nombre": "Te Aromatica", "precio": "290,65", "desc": "Infusión" },
-      { "id": 185, "nombre": "Te Nestea", "precio": "581,30", "desc": "Te helado" },
-      { "id": 186, "nombre": "Toddy Caliente", "precio": "581,30", "desc": "Chocolate" }
+      {
+        "id": 950,
+        "nombre": "Nachos Jazz",
+        "precio": "$11",
+        "desc": "320gr de carne molida, queso fundido y 200gr de nachos con sus guarniciones."
+      },
+      {
+        "id": 951,
+        "nombre": "Tenders de Pollo",
+        "precio": "$11",
+        "desc": "400gr de tenders acompañados con papas fritas y salsa de la casa."
+      },
+      {
+        "id": 952,
+        "nombre": "Picada Mar y Tierra (4 Pers)",
+        "precio": "$36",
+        "desc": "Frutos del mar, pollo y lomito, vegetales salteados y papitas amarillas."
+      },
+      {
+        "id": 953,
+        "nombre": "Ceviche de la Casa",
+        "precio": "$8",
+        "desc": "Pescado, camarones, cebolla morada, ají dulce, cilantro y leche de tigre."
+      }
+    ]
+  },
+  {
+    "id": "infantil",
+    "categoria": "Menú Infantil",
+    "items": [
+      {
+        "id": 1001,
+        "nombre": "Tenders de Pollo con Papas",
+        "precio": "$5",
+        "desc": "Porción para niños."
+      },
+      {
+        "id": 1002,
+        "nombre": "Pasta a la Boloñesa",
+        "precio": "$5",
+        "desc": "Porción para niños."
+      },
+      {
+        "id": 1003,
+        "nombre": "Macarrones con Queso",
+        "precio": "$5",
+        "desc": "Porción para niños."
+      }
     ]
   },
   {
     "id": "postres",
     "categoria": "Postres",
     "items": [
-      { "id": 187, "nombre": "Quesillo", "precio": "435,97", "desc": "Casero" },
-      { "id": 188, "nombre": "Gelatina", "precio": "581,30", "desc": "De sabores" }
+      {
+        "id": 1101,
+        "nombre": "Helado Frito",
+        "precio": "$5",
+        "desc": "Cama de torta de chocolate, acompañado de helado frito."
+      }
+    ]
+  },
+  {
+    "id": "extras",
+    "categoria": "Extras y Guarniciones",
+    "items": [
+      {
+        "id": 1201,
+        "nombre": "Tostones",
+        "precio": "$2",
+        "desc": "Porción extra."
+      },
+      {
+        "id": 1202,
+        "nombre": "César sin Pollo",
+        "precio": "$2",
+        "desc": "Porción extra."
+      },
+      {
+        "id": 1203,
+        "nombre": "Papas Francesas",
+        "precio": "$2",
+        "desc": "Porción extra."
+      },
+      {
+        "id": 1204,
+        "nombre": "Arroz Blanco / Cremoso",
+        "precio": "$2",
+        "desc": "Porción extra."
+      },
+      {
+        "id": 1205,
+        "nombre": "Yuca Frita / Cocida",
+        "precio": "$2",
+        "desc": "Porción extra."
+      }
+    ]
+  },
+  {
+    "id": "cocteles",
+    "categoria": "Cocteles",
+    "items": [
+      {
+        "id": 1301,
+        "nombre": "Margarita",
+        "precio": "$2",
+        "desc": "Tequila, Triple Seco, Zumo de Limón."
+      },
+      {
+        "id": 1302,
+        "nombre": "Margarita Blue",
+        "precio": "$3",
+        "desc": "Tequila, Triple Seco, Curacao Azul."
+      },
+      {
+        "id": 1303,
+        "nombre": "Margarita Frozen",
+        "precio": "$2.5",
+        "desc": "Con hielo granizado."
+      },
+      {
+        "id": 1304,
+        "nombre": "Daiquiri",
+        "precio": "$2",
+        "desc": "Ron Blanco, Triple Seco, Fruta, Jarabe."
+      },
+      {
+        "id": 1305,
+        "nombre": "Mojito",
+        "precio": "$1.5",
+        "desc": "Ron Blanco, Zumo de Limón, Jarabe."
+      },
+      {
+        "id": 1306,
+        "nombre": "Cuba Libre",
+        "precio": "$1.5",
+        "desc": "Ron oscuro, Zumo de limón, Coca Cola."
+      },
+      {
+        "id": 1307,
+        "nombre": "Martini",
+        "precio": "$4",
+        "desc": "Ginebra, Vermut, aceituna."
+      },
+      {
+        "id": 1308,
+        "nombre": "Martini Express",
+        "precio": "$2.5",
+        "desc": "Vodka, Licor de Café, Café Espresso."
+      },
+      {
+        "id": 1309,
+        "nombre": "Coco Loco",
+        "precio": "$2.6",
+        "desc": "Ron coco, zumo de limón, jugo de naranja, hierbabuena."
+      },
+      {
+        "id": 1310,
+        "nombre": "Mai-Tai",
+        "precio": "$4.5",
+        "desc": "Ron Blanco, Ron Oscuro, Jugo de Naranja y Piña."
+      },
+      {
+        "id": 1311,
+        "nombre": "Piña Colada",
+        "precio": "$3.5",
+        "desc": "Ron Blanco, Ron Coco, Crema de Coco, Piña."
+      },
+      {
+        "id": 1312,
+        "nombre": "Amor Supremo",
+        "precio": "$4.3",
+        "desc": "Licor de Café, Ponche crema, amaretto."
+      },
+      {
+        "id": 1313,
+        "nombre": "Beso de Limón",
+        "precio": "$2",
+        "desc": "Vodka, Limoncello, Granadina, Curacao Azul."
+      },
+      {
+        "id": 1314,
+        "nombre": "Jazz Woman",
+        "precio": "$3.5",
+        "desc": "Vodka, Licor de Café, Amaretto, Helado de Vainilla."
+      },
+      {
+        "id": 1315,
+        "nombre": "Melodía",
+        "precio": "$2.5",
+        "desc": "Ron Blanco, Jugo de Piña, Granadina, cerezas."
+      },
+      {
+        "id": 1316,
+        "nombre": "Tren Azul",
+        "precio": "$3",
+        "desc": "Vodka, Curacao Azul, Zumo de Limón, 7Up."
+      },
+      {
+        "id": 1317,
+        "nombre": "Swing Hawai",
+        "precio": "$1.5",
+        "desc": "Ron Coco, Ron Blanco, Jugo de Naranja, Curacao Azul."
+      },
+      {
+        "id": 1318,
+        "nombre": "Jazz Surprise",
+        "precio": "$4",
+        "desc": "Granadina, Jugo de Naranja, Ron Blanco, Curacao Azul."
+      },
+      {
+        "id": 1319,
+        "nombre": "Entre Sabanas",
+        "precio": "$1.5",
+        "desc": "Ron Blanco, Brandy, Triple Seco."
+      },
+      {
+        "id": 1320,
+        "nombre": "Vino Jazz",
+        "precio": "$3",
+        "desc": "Vodka, vino tinto, jarabe dulce, jugo de arándanos."
+      },
+      {
+        "id": 1321,
+        "nombre": "Rey Azul",
+        "precio": "$2.5",
+        "desc": "Ron blanco, Curacao, jugo de piña."
+      },
+      {
+        "id": 1322,
+        "nombre": "Isla Jazz",
+        "precio": "$2",
+        "desc": "Vodka, Ron, Ginebra, Tequila, Coca Cola."
+      },
+      {
+        "id": 1323,
+        "nombre": "Tom Collins",
+        "precio": "$2",
+        "desc": "Ginebra, Zumo de Limón, Jarabe, 7Up."
+      }
+    ]
+  },
+  {
+    "id": "licores_cervezas",
+    "categoria": "Licores y Cervezas",
+    "items": [
+      {
+        "id": 1401,
+        "nombre": "Chelada",
+        "precio": "$2.6",
+        "desc": "Cerveza Corona con limón y sal."
+      },
+      {
+        "id": 1402,
+        "nombre": "Michelada",
+        "precio": "$4.5",
+        "desc": "Cerveza Corona con limón, salsa inglesa y picante."
+      },
+      {
+        "id": 1403,
+        "nombre": "Corona Jazz",
+        "precio": "$3.7",
+        "desc": "Cerveza Corona con tequila y granadina."
+      },
+      {
+        "id": 1404,
+        "nombre": "Ron Cacique 500",
+        "precio": "$26",
+        "desc": "Botella."
+      },
+      {
+        "id": 1405,
+        "nombre": "Ron Pampero Aniversario",
+        "precio": "$42",
+        "desc": "Botella."
+      },
+      {
+        "id": 1406,
+        "nombre": "Buchanans 12",
+        "precio": "$52",
+        "desc": "Botella."
+      },
+      {
+        "id": 1407,
+        "nombre": "Old Parr 12",
+        "precio": "$52",
+        "desc": "Botella."
+      },
+      {
+        "id": 1408,
+        "nombre": "Vino Cabernet Tinto",
+        "precio": "$13",
+        "desc": "Botella."
+      },
+      {
+        "id": 1409,
+        "nombre": "Sangría",
+        "precio": "$12.21",
+        "desc": "Jarra de la casa."
+      },
+      {
+        "id": 1410,
+        "nombre": "Cerveza Polar / Solera",
+        "precio": "$1",
+        "desc": "Nacional (Negra, Light, Azul, Verde)."
+      },
+      {
+        "id": 1411,
+        "nombre": "Cerveza Corona 355ml",
+        "precio": "$1.8",
+        "desc": "Importada."
+      },
+      {
+        "id": 1412,
+        "nombre": "Caroreña Verano",
+        "precio": "$1.3",
+        "desc": "222 ml."
+      }
+    ]
+  },
+  {
+    "id": "bebidas",
+    "categoria": "Bebidas",
+    "items": [
+      {
+        "id": 1501,
+        "nombre": "Granizados",
+        "precio": "$1.2",
+        "desc": "Saborizado."
+      },
+      {
+        "id": 1502,
+        "nombre": "Merengadas",
+        "precio": "$2",
+        "desc": "Batido de leche."
+      },
+      {
+        "id": 1503,
+        "nombre": "Refrescos",
+        "precio": "$1",
+        "desc": "Individual."
+      },
+      {
+        "id": 1504,
+        "nombre": "Nestea",
+        "precio": "$1.6",
+        "desc": "Té helado."
+      },
+      {
+        "id": 1505,
+        "nombre": "Agua Mineral",
+        "precio": "$0.5",
+        "desc": "Botella."
+      }
     ]
   }
 ]

@@ -81,5 +81,29 @@ menuScroll.addEventListener('wheel', (evt) => {
 });
 
 
+// --- LÓGICA DEL BOTÓN IR ARRIBA ---
+const scrollBtn = document.getElementById('scrollTopBtn');
+
+window.addEventListener('scroll', () => {
+    // Si bajamos más de 300px, mostrar botón
+    if (window.scrollY > 300) {
+        scrollBtn.classList.add('show');
+    } else {
+        scrollBtn.classList.remove('show');
+    }
+});
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Desplazamiento suave
+    });
+}
+
+// Actualizar iconos por si acaso
+lucide.createIcons();
+
+
+
 
         document.addEventListener('DOMContentLoaded', loadMenu);
